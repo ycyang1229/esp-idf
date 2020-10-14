@@ -64,7 +64,9 @@
  * MEMCPY: override this if you have a faster implementation at hand than the
  * one included in your C library
  */
+#ifndef MEMCPY
 #define MEMCPY(dst,src,len)             memcpy(dst,src,len)
+#endif
 
 /**
  * SMEMCPY: override this with care! Some compilers (e.g. gcc) can inline a

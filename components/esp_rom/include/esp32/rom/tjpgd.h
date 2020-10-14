@@ -30,8 +30,9 @@ typedef unsigned char	BYTE;
 typedef short			SHORT;
 typedef unsigned short	USHORT;
 typedef unsigned short	WORD;
+#ifndef WCHAR
 typedef unsigned short	WCHAR;
-
+#endif
 /* These types must be 32-bit integer */
 typedef long			LONG;
 typedef unsigned long	ULONG;
