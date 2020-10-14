@@ -37,7 +37,8 @@
 
 [submodule "components/mbedtls/mbedtls"]
 	path = components/mbedtls/mbedtls
-	url = ../../espressif/mbedtls.git
+	url = git@github.com:ycyang1229/mbedtls.git
+	branch = esp-porting-pr1813-2.16.6
 
 [submodule "components/asio/asio"]
 	path = components/asio/asio
